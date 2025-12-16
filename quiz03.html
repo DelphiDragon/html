@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <table>
+      <tr>
+        <td colspan="1">
+            <div id="wrap" style="background-color: white;">
+             다음 <span id="hit" style="background-color: red;">내용에 맞게 입력</span>
+               하세요 <br> 전공 분야를 입력하세요 
+                <select size="1" name="test1">
+                    <option value="p1">소프트웨어</option>
+                    <option value="p2">전기</option>
+                    <option >수학</option>
+                </select>
+            </td>
+            </div>
+        </td>
+        <td rowspan="2"><img src="278243925tmlm.jpg" width="260" height="140"> </td>
+      </tr>
+
+      <tr>
+        <td>
+           <table>
+             <tr>
+                <td>이름</td>
+                <td><input type="text" id="name"></td>
+             </tr>
+
+             <tr>
+                <td>아이디</td>
+                <td><input type="text" id="id"></td>
+             </tr>
+
+             <tr>
+                <td>비밀번호</td>
+                <td><input type="text" id="pw"></td>
+             </tr>
+           </table> 
+        </td>
+        
+      </tr>
+         <td colspan="2" align="left"> 
+            <fieldset style="width: 500px;">
+                <legend>성별 조사</legend>
+                    여성<input type="radio" name="sex" checked>
+                    남성<input type="radio" name="sex">
+            </fieldset>  
+            <fieldset style="width: 500px;">
+                <legend>취미조사</legend>
+                책읽기<input type="checkbox" name="book">    
+                공부하기<input type="checkbox" name="book">   
+                책 읽으며 공부하기<input type="checkbox" name="book">  
+                컴퓨터<input type="checkbox" name="book">              
+            </fieldset>
+            <fieldset style="width: 500px;">
+               <legend>하고싶은말</legend> 
+                <textarea cols="60px" rows="5" name="test"></textarea>
+            </fieldset>
+         </td>
+      <tr>
+        <td colspan="2" align="left">
+            <button>완료</button>
+            <button>다시작성</button>
+        </td>
+      </tr>
+      
+   </table> 
+</body>
+</html>
